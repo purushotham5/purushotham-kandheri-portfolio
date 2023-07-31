@@ -259,11 +259,9 @@ section {
     }
 }@media (max-width: 358px) {
     .header-content .left-header .image img {
-        left: 5em;
-        position: relative;
-        min-width: 288px;
+        min-width: 250px;
         min-height: 60vh;
-        margin-left: 6e;
+        margin-right: 0em;
     }}
 
 .header-content .left-header .image img:hover {
@@ -939,7 +937,7 @@ section {
 
     .header-content {
         grid-template-columns: 1fr;
-        /* padding: 6rem; */
+        padding: 6rem;
     }
 
     .left-header .h-shape {
